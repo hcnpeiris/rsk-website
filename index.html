@@ -12,11 +12,19 @@
 </head>
 <body>
 
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="rsk-logo" viewBox="0 0 320 190">
+    <path d="M8 112C60 56 150 14 236 16C292 17 318 34 306 70C300 88 288 102 272 112C290 90 296 68 280 52C262 36 200 34 140 56C90 74 46 94 8 112Z" fill="#E3B04B"/>
+    <path d="M0 98C70 42 150 10 232 7" fill="none" stroke="#E3B04B" stroke-width="1.5" opacity=".6"/>
+    <text x="160" y="142" text-anchor="middle" font-family="'Source Serif 4', Georgia, 'Times New Roman', serif" font-weight="700" font-size="100" letter-spacing="2" fill="#FFFFFF">RSK</text>
+    <text x="160" y="180" text-anchor="middle" font-family="'Source Serif 4', Georgia, 'Times New Roman', serif" font-weight="400" font-size="22" letter-spacing="7" fill="#FFFFFF">ASSOCIATES</text>
+  </symbol>
+</svg>
+
 <header class="site-header" id="top">
   <div class="wrap header-row">
     <a class="logo" href="#top" aria-label="RSK Associates home">
-      <span class="logo-main">RSK</span>
-      <span class="logo-sub">ASSOCIATES</span>
+      <svg class="logo-svg" viewBox="0 0 320 190" role="img" aria-label="RSK Associates"><use href="#rsk-logo" width="320" height="190"/></svg>
     </a>
     <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
       <span></span><span></span><span></span>
@@ -52,13 +60,27 @@
       <aside class="hero-panel" aria-label="Practice areas">
         <p class="eyebrow eyebrow-light">What we do</p>
         <ul>
-          <li>Professional Services</li>
-          <li>Finance</li>
-          <li>Tax</li>
-          <li>Audit</li>
-          <li>Business Advisory</li>
+          <li><a href="#services">Business Setup &amp; Corporate Services</a></li>
+          <li><a href="#services">Accounting &amp; Financial Reporting</a></li>
+          <li><a href="#services">Tax Advisory &amp; Compliance</a></li>
+          <li><a href="#services">Transfer Pricing &amp; International Tax</a></li>
+          <li><a href="#services">Payroll Management &amp; Employment Compliance</a></li>
+          <li><a href="#services">Human Resource Management</a></li>
+          <li><a href="#services">Legal &amp; Labour Law Advisory</a></li>
+          <li><a href="#services">Audit, Assurance &amp; Internal Control</a></li>
+          <li><a href="#services">Business &amp; Financial Advisory, SOP &amp; Data Analytics</a></li>
         </ul>
       </aside>
+    </div>
+  </section>
+
+  <section class="exp-band" aria-label="Experienced leadership">
+    <div class="wrap exp-row">
+      <p class="exp-num">25+</p>
+      <div class="exp-text">
+        <p class="exp-title">Years of experience at the head of the firm</p>
+        <p>Our Managing Partner and our Partner for Financial Services each bring over 25 years of experience, supported by partners in tax, HR, assurance and corporate finance.</p>
+      </div>
     </div>
   </section>
 
@@ -180,49 +202,87 @@
           <div class="avatar" role="img" aria-label="Portrait placeholder for Rumold Fernando">RF</div>
           <h3>Rumold Fernando</h3>
           <p class="role">Managing Partner</p>
-          <p>Over 25 years of corporate leadership experience, including CEO of a group of companies.</p>
+          <p>Over 25 years of corporate leadership experience, including serving as CEO of a group of companies and holding senior management positions in multinational organisations. Specialised in corporate strategy, business establishment, financial management, ERP implementation, HR and labour law consultancy.</p>
         </article>
         <article class="person">
           <div class="avatar" role="img" aria-label="Portrait placeholder for Alex Thirimanne">AT</div>
           <h3>Alex Thirimanne</h3>
           <p class="role">Partner, Financial Services &amp; Business Management</p>
-          <p>Over 25 years of experience in financial management, including a leading hotel group.</p>
+          <p>Over 25 years of financial management experience, including serving as Financial Controller in the hospitality industry. Experienced in financial planning, budgeting, forecasting, cost management, cash flow optimisation, management reporting and improving business performance.</p>
         </article>
         <article class="person">
           <div class="avatar" role="img" aria-label="Portrait placeholder for Ranjith Rodrigo">RR</div>
           <h3>Ranjith Rodrigo</h3>
           <p class="role">Partner, Tax &amp; HR Advisory</p>
-          <p>Over 20 years of senior management experience.</p>
+          <p>Over 20 years of senior management experience in corporate finance and administration. Specialised in taxation, tax compliance, payroll management, human resources, employment administration and strengthening organisational processes.</p>
         </article>
         <article class="person">
           <div class="avatar" role="img" aria-label="Portrait placeholder for Dinuke Hettige">DH</div>
           <h3>Dinuke Hettige</h3>
           <p class="role">Partner, Head of Assurance</p>
-          <p>Over 15 years of expertise in audit and assurance.</p>
+          <p>Over 15 years of managerial experience, including serving as Senior Manager at Ernst &amp; Young (EY) Sri Lanka and Director of Operations in the manufacturing sector. Experienced in audit, assurance, financial reporting, internal controls, operational management and corporate governance.</p>
         </article>
         <article class="person">
           <div class="avatar" role="img" aria-label="Portrait placeholder for Shenal Fernando">SF</div>
           <h3>Shenal Fernando</h3>
           <p class="role">Partner, Business Advisory &amp; Corporate Finance</p>
-          <p>10 years at Ernst &amp; Young (EY).</p>
+          <p>Over 10 years of professional experience at Ernst &amp; Young (EY), where he served as Audit Manager across multiple industries. Subsequently served as Group Finance Manager – Tax &amp; Audit Compliance at a multinational BOI group, specialising in corporate taxation, financial governance, audit compliance, risk management and business advisory.</p>
         </article>
       </div>
     </div>
   </section>
 
   <section class="section" id="why">
-    <div class="wrap stack-lg">
-      <div class="section-head">
+    <div class="wrap why-layout">
+      <div class="why-intro">
         <p class="eyebrow">Why Choose RSK Associates?</p>
         <h2>Your Success is Our Priority</h2>
+        <p class="lead-dark">What you can expect when you work with RSK Associates.</p>
+        <a class="btn btn-navy" href="#contact">Start a conversation</a>
       </div>
-      <ul class="why" data-reveal-group>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.5 3-6 6-6s6 2.5 6 6M16 5a3 3 0 010 6M18 14c2 .8 3 3 3 6"/></svg>Experienced Professional Leadership</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5zM3 13l9 5 9-5"/></svg>Integrated Services</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0012 3z"/></svg>Practical Solutions</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>Tailored Approach</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>Commitment to Excellence</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M6 16v-4M11 16V9M16 16v-7M4 10l5-4 4 3 7-6"/></svg>Supporting Sustainable Growth</li>
+      <ul class="why-list" data-reveal-group>
+        <li class="why-item">
+          <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.5 3-6 6-6s6 2.5 6 6M16 5a3 3 0 010 6M18 14c2 .8 3 3 3 6"/></svg></span>
+          <div>
+            <h3>Professional Expertise</h3>
+            <p>A multidisciplinary team bringing together extensive experience in accounting, finance, taxation, audit, human resources and business management.</p>
+          </div>
+        </li>
+        <li class="why-item">
+          <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5zM3 13l9 5 9-5"/></svg></span>
+          <div>
+            <h3>Integrated Professional Solutions</h3>
+            <p>A comprehensive range of professional services under one roof, reducing the complexity of managing multiple service providers.</p>
+          </div>
+        </li>
+        <li class="why-item">
+          <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+          <div>
+            <h3>Practical Business Approach</h3>
+            <p>Tailored solutions designed around each client's business environment, operational requirements and financial objectives.</p>
+          </div>
+        </li>
+        <li class="why-item">
+          <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span>
+          <div>
+            <h3>Strong Governance &amp; Compliance Focus</h3>
+            <p>Emphasis on effective internal controls, risk management, financial transparency and regulatory compliance.</p>
+          </div>
+        </li>
+        <li class="why-item">
+          <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/></svg></span>
+          <div>
+            <h3>Integrity &amp; Confidentiality</h3>
+            <p>A commitment to ethical conduct, professional standards, confidentiality and responsible service delivery.</p>
+          </div>
+        </li>
+        <li class="why-item">
+          <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 005.7 0l3-3a4 4 0 00-5.7-5.7l-1 1M14 10a4 4 0 00-5.7 0l-3 3a4 4 0 005.7 5.7l1-1"/></svg></span>
+          <div>
+            <h3>Long-term Business Partnership</h3>
+            <p>Building lasting relationships through continuous support, professional guidance and a commitment to sustainable business growth.</p>
+          </div>
+        </li>
       </ul>
     </div>
   </section>
@@ -247,6 +307,7 @@
 
         <ul class="contact-list">
           <li><span>Phone</span><a href="tel:+94771856536">+94 771 856 536</a></li>
+          <li><span>WhatsApp</span><a href="tel:+94771856536">+94 771 856 536</a></li>
           <li><span>Email</span><a href="mailto:info@rskassociates.lk">info@rskassociates.lk</a></li>
           <li><span>Website</span><a href="https://www.rskassociates.lk">www.rskassociates.lk</a></li>
         </ul>
@@ -284,8 +345,7 @@
 <footer class="site-footer">
   <div class="wrap footer-row">
     <div class="logo logo-small">
-      <span class="logo-main">RSK</span>
-      <span class="logo-sub">ASSOCIATES</span>
+      <svg class="logo-svg" viewBox="0 0 320 190" role="img" aria-label="RSK Associates"><use href="#rsk-logo" width="320" height="190"/></svg>
     </div>
     <p class="footer-tag">Professional · Reliable · Results Driven</p>
     <p class="footer-copy">© <span id="year">2026</span> RSK Associates. Finance, Tax &amp; Advisory.</p>
